@@ -1,0 +1,27 @@
+*{
+    margin: 0; /*外边距为0 */
+    padding: 0;/*内边距为0 */
+    list-style: none;/*列表样式清空*/
+}
+#box{
+    border: 1px solid #cccccc;
+    width: 546px;
+    height: 110px;
+    padding-top: 546px;
+    margin:100px auto;
+    background:url("01.jpg") no-repeat ;
+
+}
+div ul li img{
+    width: 107px;
+    height: 107px;
+}
+div ul{
+    display: flex;
+    justify-content: center;/*用于设置或检索弹性盒子元素在横轴的对齐方式*/
+    align-items: center;/*垂直方向上的对齐方式*/
+    cursor: pointer;
+}
+.img-hover{
+    border: 1px solid crimson;
+}
